@@ -1,0 +1,10 @@
+assets/*
+assets/
+assets
+assets/audio/*
+assets/audio/nature/*
+assets/audio/atmosphere/*
+assets/audio/hours/*
+assets/audio/nature/
+assets/audio/atmosphere/
+assets/audio/hours/
