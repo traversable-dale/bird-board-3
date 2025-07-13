@@ -30,8 +30,9 @@
 
   <!-- ────────── PLAYBACK ────────── -->
   <h2>Playback</h2>
-  <button type="button" class="btn" data-topic="/idle" data-val="1">IDLE</button>
-  <button type="button" class="btn" data-topic="/play" data-val="1">PLAY</button>
+  <button type="button" class="btn" data-topic="/special_nature" data-val="1">GARDEN</button>
+  <button type="button" class="btn" data-topic="/special" data-val="1">DUDUK</button>
+  <button type="button" class="btn" data-topic="/normal" data-val="1">NORMAL</button>
   <button type="button" class="btn" data-topic="/stop" data-val="1">STOP</button>
 
   <!-- ────────── TRACK SELECT ────────── -->
@@ -44,6 +45,12 @@
   <h2>System</h2>
   <button type="button" class="btn danger" data-topic="/reboot"   data-val="1">REBOOT</button>
   <button type="button" class="btn danger" data-topic="/shutdown" data-val="1">SHUT DOWN</button>
+  <!-- ────────── SYNC MODE ────────── -->
+  <h2>Sync Mode</h2>
+  <button type="button" class="btn" data-topic="/sync" data-val="1">SYNC</button>
+  <button type="button" class="btn" data-topic="/async" data-val="1">ASYNC</button>
+  <!-- <button class="btn" data-topic="/set_async" data-val="sync">SYNC</button> -->
+  <!-- <button class="btn" data-topic="/set_sync" data-val="async">ASYNC</button> -->
 
   <script>
     /* ---- send helper ---- */
